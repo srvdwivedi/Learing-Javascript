@@ -1,27 +1,27 @@
-#An Introduction to JavaScript
+# An Introduction to JavaScript
 
 Let’s see what’s so special about JavaScript, what we can achieve with it, and what other technologies play well with it.
 
-#What is JavaScript?
+# What is JavaScript?
 
 JavaScript was initially created to “make web pages alive”.
 The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
 Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
 In this aspect, JavaScript is very different from another language called Java.
 
-#Why is it called JavaScript?
+# Why is it called JavaScript?
 
 When JavaScript was created, it initially had another name: “LiveScript”. But Java was very popular at that time, so it was decided that positioning a new language as a “younger brother” of Java would help.
 But as it evolved, JavaScript became a fully independent language with its own specification called ECMAScript, and now it has no relation to Java at all.
 Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called the JavaScript engine.
 The browser has an embedded engine sometimes called a “JavaScript virtual machine”.
 
-#Different engines have different “codenames”. For example:
+# Different engines have different “codenames”. For example:
     V8 – in Chrome and Opera.
     SpiderMonkey – in Firefox.
     …There are other codenames like “Chakra” for IE, “ChakraCore” for Microsoft Edge, “Nitro” and “SquirrelFish” for Safari, etc.
 
-#The terms above are good to remember because they are used in developer articles on the internet. We’ll use them too. For instance, if “a feature X is supported by V8”, then it probably works in Chrome and Opera.
+The terms above are good to remember because they are used in developer articles on the internet. We’ll use them too. For instance, if “a feature X is supported by V8”, then it probably works in Chrome and Opera.
 How do engines work?
 
 Engines are complicated. But the basics are easy.
@@ -47,7 +47,7 @@ For instance, in-browser JavaScript is able to:
     Get and set cookies, ask questions to the visitor, show messages.
     Remember the data on the client-side (“local storage”).
 
-What CAN’T in-browser JavaScript do?
+# What CAN’T in-browser JavaScript do?
 
 JavaScript’s abilities in the browser are limited for the sake of the user’s safety. The aim is to prevent an evil webpage from accessing private information or harming the user’s data.
 
@@ -70,7 +70,7 @@ Examples of such restrictions include:
 Such limits do not exist if JavaScript is used outside of the browser, for example on a server. Modern browsers also allow plugin/extensions which may ask for extended permissions.
 What makes JavaScript unique?
 
-There are at least three great things about JavaScript:
+# There are at least three great things about JavaScript:
 
     Full integration with HTML/CSS.
     Simple things are done simply.
